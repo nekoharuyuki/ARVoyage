@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MapGeoMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: MAP_GEO
+    m_Weight: 1
+  - m_Path: MAP_GEO/LaunchPlatform_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Door_Geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Cloud_01_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Cloud_02_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Cloud_03_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Geography_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Path_02_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Path_02_nodots_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Props_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Map_Static/Map_Sea_geo
+    m_Weight: 1
+  - m_Path: MAP_GEO/Platform_FlagA
+    m_Weight: 1
+  - m_Path: MAP_GEO/Platform_FlagB
+    m_Weight: 1
+  - m_Path: MAP_SKIN_RIG
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt/Platform_FlagA_02_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt/Platform_FlagA_02_jnt/Platform_FlagA_03_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt/Platform_FlagA_02_jnt/Platform_FlagA_03_jnt/Platform_FlagA_04_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt/Platform_FlagA_02_jnt/Platform_FlagA_03_jnt/Platform_FlagA_04_jnt/Platform_FlagA_05_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagA_01_jnt/Platform_FlagA_02_jnt/Platform_FlagA_03_jnt/Platform_FlagA_04_jnt/Platform_FlagA_05_jnt/Platform_FlagA_06_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt/Platform_FlagB_02_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt/Platform_FlagB_02_jnt/Platform_FlagB_03_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt/Platform_FlagB_02_jnt/Platform_FlagB_03_jnt/Platform_FlagB_04_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt/Platform_FlagB_02_jnt/Platform_FlagB_03_jnt/Platform_FlagB_04_jnt/Platform_FlagB_05_jnt
+    m_Weight: 0
+  - m_Path: MAP_SKIN_RIG/Platform_FlagB_01_jnt/Platform_FlagB_02_jnt/Platform_FlagB_03_jnt/Platform_FlagB_04_jnt/Platform_FlagB_05_jnt/Platform_FlagB_06_jnt
+    m_Weight: 0

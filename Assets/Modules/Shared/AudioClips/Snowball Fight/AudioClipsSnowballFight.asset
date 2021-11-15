@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df0718b9109f494da6582a98f3d9a1a, type: 3}
+  m_Name: AudioClipsSnowballFight
+  m_EditorClassIdentifier: 
+  category: SnowballFight
+  clips:
+  - {fileID: 8300000, guid: 93e35d633aa1f4a3b8161dc51a672d24, type: 3}
+  - {fileID: 8300000, guid: 1495e12b3b8704696831eb3b9be9657c, type: 3}
+  - {fileID: 8300000, guid: a7b80700d002640a98ff20e545f80516, type: 3}
+  - {fileID: 8300000, guid: 7f4c034af6dde48c3ad6cb3f1b95c9a7, type: 3}
+  - {fileID: 8300000, guid: 3b8718ed78d26459697f888e3ed69817, type: 3}
+  - {fileID: 8300000, guid: b0f4882a04bc44365b26d3c4d66b1ef8, type: 3}
+  - {fileID: 8300000, guid: 1aec66594ed2c4aeebd3b59d8c41b0ba, type: 3}
+  - {fileID: 8300000, guid: aefec090ae31944bebcf083f3a2d6381, type: 3}
+  - {fileID: 8300000, guid: f92049ceb7377402a9a0ad9343ad7bcc, type: 3}
+  - {fileID: 8300000, guid: c5fdf80ccb7274c8c81b5e0c6d46132c, type: 3}

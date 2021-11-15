@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7056161746093444036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7056161746093444039}
+  - component: {fileID: 7056161746093444056}
+  - component: {fileID: 7056161746093444057}
+  - component: {fileID: 7056161746093444038}
+  m_Layer: 5
+  m_Name: PromptScanFloorPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7056161746093444039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056161746093444036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 264, y: 264}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7056161746093444056
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056161746093444036}
+  m_CullTransparentMesh: 0
+--- !u!114 &7056161746093444057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056161746093444036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad880feca35344a77acd034d2cef94fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: 7
+  playOnEnable: 1
+  loop: 1
+  sprites:
+  - {fileID: 21300000, guid: 719814ff9e34f4a0081c0af6f584f6a1, type: 3}
+  - {fileID: 21300000, guid: d7d1e78130bf349bd84fd43a13b4b5c5, type: 3}
+  - {fileID: 21300000, guid: 2759bdc6ed54847bd9002862a376f572, type: 3}
+  - {fileID: 21300000, guid: 16f0a3206dd7d49c681b53be9611cf97, type: 3}
+  - {fileID: 21300000, guid: a6517faa704424efca54b0c7ed0af55e, type: 3}
+  - {fileID: 21300000, guid: 5ed658b8e63f844e49093b043b54b3a5, type: 3}
+  - {fileID: 21300000, guid: 4e852bdd076164731af77b66752f1150, type: 3}
+  - {fileID: 21300000, guid: 0a24be322fa714b2aab3e1190de66c79, type: 3}
+  - {fileID: 21300000, guid: 568bd092a6634427cbf4b5c92d07b824, type: 3}
+  - {fileID: 21300000, guid: a23aa02a3c9e84119b12b6c59aab4bfd, type: 3}
+  - {fileID: 21300000, guid: 1ed5726a80037421fa0b9bc1bc9aeb5f, type: 3}
+  - {fileID: 21300000, guid: 8464d575abe924780b1ae49051b805cc, type: 3}
+  - {fileID: 21300000, guid: 7e07087061fa241eaa2c172513cc60ce, type: 3}
+  - {fileID: 21300000, guid: 91f24ee9da63746858627b9810245926, type: 3}
+  - {fileID: 21300000, guid: 10670436ebae44575839d15792f5a017, type: 3}
+  - {fileID: 21300000, guid: cf147262e1d4c408cbf3eaa615a7a56d, type: 3}
+  - {fileID: 21300000, guid: 44ff043e84c8e4b5baa22394fb240ed4, type: 3}
+  - {fileID: 21300000, guid: a712610dedc6b49b1a741210e69c1af6, type: 3}
+  - {fileID: 21300000, guid: ba095a4e7ade04b7492530672f860d4c, type: 3}
+  - {fileID: 21300000, guid: a1e799033a3ca4f9889cb60182988334, type: 3}
+  - {fileID: 21300000, guid: 117e8991cc418414f8eb484ffd767f74, type: 3}
+--- !u!114 &7056161746093444038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056161746093444036}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 719814ff9e34f4a0081c0af6f584f6a1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

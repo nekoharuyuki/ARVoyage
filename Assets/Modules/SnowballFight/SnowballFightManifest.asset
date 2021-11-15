@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cabe4f37b454aa1aa61155165bcf4af, type: 3}
+  m_Name: SnowballFightManifest
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: -7449276555561794939, guid: a09cd5834ddb045498ca79229621590c, type: 3}
+  - {fileID: 8084812144287479460, guid: 9354c44e7b34a4e19b577b70f6d7c9f3, type: 3}
+  - {fileID: 2189040393354603481, guid: f43bcadb391c278408bc3fce613032ff, type: 3}

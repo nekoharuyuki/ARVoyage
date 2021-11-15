@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df0718b9109f494da6582a98f3d9a1a, type: 3}
+  m_Name: AudioClipsMap
+  m_EditorClassIdentifier: 
+  category: Map
+  clips:
+  - {fileID: 8300000, guid: 270fabc6b166c48c89972d5a955afb91, type: 3}
+  - {fileID: 8300000, guid: 2a6b56fc99d6748849f4cb5083fa0df7, type: 3}
+  - {fileID: 8300000, guid: 4955444659b7743ef8712b58fe4abc82, type: 3}
+  - {fileID: 8300000, guid: e2f977cc129a345be9631d57dbe592f6, type: 3}
+  - {fileID: 8300000, guid: 0fbd32c2ba09942169abaff04badd123, type: 3}
+  - {fileID: 8300000, guid: 18c9a5ed9c8ac40108a5955d98ffcd17, type: 3}
+  - {fileID: 8300000, guid: 73dc1378b8b48455f85a09009978fc4c, type: 3}
+  - {fileID: 8300000, guid: 754ba37a1852d404bbbafd11445d1a6a, type: 3}
+  - {fileID: 8300000, guid: a9fcda6d37e584fba806ea531b22bf43, type: 3}

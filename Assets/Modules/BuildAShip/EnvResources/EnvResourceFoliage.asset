@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f9b952df60f47f8a1dd5e0660507dc, type: 3}
+  m_Name: EnvResourceFoliage
+  m_EditorClassIdentifier: Assembly-CSharp:NexusStudios.Yeti.BuildAShip:EnvResource
+  Channel: 8
+  ChannelName: a Tree
+  ResourceName: Wood
+  ResourceIcon: {fileID: 21300000, guid: 9886e388dab5843bb9db8dbfb3d563b0, type: 3}
+  ResourceSprite: {fileID: 21300000, guid: 7a416ef16ff294bc9b9a44e7180e2f69, type: 3}

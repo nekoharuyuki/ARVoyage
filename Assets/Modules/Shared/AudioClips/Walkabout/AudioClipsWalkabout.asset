@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df0718b9109f494da6582a98f3d9a1a, type: 3}
+  m_Name: AudioClipsWalkabout
+  m_EditorClassIdentifier: 
+  category: Walkabout
+  clips:
+  - {fileID: 8300000, guid: 1544e4b585def42b69d7ac627fb4bf20, type: 3}
+  - {fileID: 8300000, guid: 31ae42a6394984524bc8570406864f58, type: 3}

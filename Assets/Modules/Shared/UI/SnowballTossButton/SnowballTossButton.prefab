@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2766585746089010109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2766585746089010108}
+  - component: {fileID: 2766585746089010105}
+  - component: {fileID: 2766585746089010103}
+  - component: {fileID: 2766585746089010104}
+  - component: {fileID: 2766585746089010107}
+  - component: {fileID: 2766585746089010106}
+  m_Layer: 5
+  m_Name: SnowballTossButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2766585746089010108
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 86, y: 86}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2766585746089010105
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_CullTransparentMesh: 0
+--- !u!114 &2766585746089010103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51b87aa60fce45348c135731cf76305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicked:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2766585746089010104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad880feca35344a77acd034d2cef94fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: 15
+  playOnEnable: 0
+  loop: 0
+  sprites:
+  - {fileID: 21300000, guid: 0ea0e0e1e832443899d0938018b7bb3a, type: 3}
+  - {fileID: 21300000, guid: 630ec81745da24d71aebef7849d266f1, type: 3}
+  - {fileID: 21300000, guid: c4eb15238613e4cf8b8f9cf3a6870846, type: 3}
+  - {fileID: 21300000, guid: 7f25cf4a310584727bb41aede47aa74b, type: 3}
+  - {fileID: 21300000, guid: 1361509d7030b49ca982380c885525b8, type: 3}
+  - {fileID: 21300000, guid: 4325231770e404cfb955c096941a55d6, type: 3}
+  - {fileID: 21300000, guid: b6be3e522d3604122bdacc54cdf3a7c9, type: 3}
+  - {fileID: 21300000, guid: c6ec67ac246244c12a815420cd51c7ee, type: 3}
+  - {fileID: 21300000, guid: cb9abd8e97d5748fe9bf990643fddf17, type: 3}
+  - {fileID: 21300000, guid: bd94a918115c74a47879f74569c8fb2d, type: 3}
+  - {fileID: 21300000, guid: 7731741724d124e8aa75c306eaa7477e, type: 3}
+  - {fileID: 21300000, guid: 9dfd33002613a4c108face280bd527dd, type: 3}
+  - {fileID: 21300000, guid: 3fec4de3dd82a4d8f969c6d21597a5fe, type: 3}
+  - {fileID: 21300000, guid: 3900aad1162da41929edc3fb5f58dbac, type: 3}
+  - {fileID: 21300000, guid: b3bd70a126ba54dc99fb5b818080a90c, type: 3}
+  - {fileID: 21300000, guid: df31107e86c534b6d895d8d188478c77, type: 3}
+  - {fileID: 21300000, guid: 5fe6797aa7070425187bf2ca47c4be62, type: 3}
+  - {fileID: 21300000, guid: 486bf41350340451e841401b3501fdd6, type: 3}
+  - {fileID: 21300000, guid: f16074f74a5274171a390dc7aebcf33f, type: 3}
+  - {fileID: 21300000, guid: ba2dbc1c8325d41bd9342fec4f942884, type: 3}
+  - {fileID: 21300000, guid: f864c27e6667a476481cdebaca08d0be, type: 3}
+  - {fileID: 21300000, guid: e0df697cdd917463aaa9cb2b12276333, type: 3}
+--- !u!114 &2766585746089010107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2766585746089010106}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2766585746089010106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766585746089010109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0ea0e0e1e832443899d0938018b7bb3a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
